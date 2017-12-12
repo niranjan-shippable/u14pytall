@@ -5,3 +5,4 @@ build:
     - uname -a
     - node -v
     - lsb_release -a
+    - shipctl asdf
