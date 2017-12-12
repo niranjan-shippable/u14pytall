@@ -1,5 +1,6 @@
 language: python
 
-ci:
-  - uname -a
-  - node -v
+build:
+  ci:
+    - uname -a
+    - node -v
