@@ -4,3 +4,4 @@ build:
   ci:
     - uname -a
     - node -v
+    - lsb_release -a
