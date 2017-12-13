@@ -7,4 +7,13 @@ build:
     - lsb_release -a
     - which shipctl
     - docker images
-    
+
+  pre_ci_boot:
+    image_name: niranjanhub/test-private-docker-image    ##replace with your repo and image name
+    image_tag: latest
+    pull: true
+
+integrations:                 
+  hub:
+    - integrationName: niranjan-shippable-docker
+      type: dockerRegistryLogin
