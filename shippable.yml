@@ -7,3 +7,4 @@ build:
     - lsb_release -a
     - which shipctl
     - docker images
+    
