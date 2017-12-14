@@ -6,3 +6,4 @@ build:
     - node -v
     - which shipctl
     - docker images
+    - sleep 1000
