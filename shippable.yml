@@ -4,6 +4,5 @@ build:
   ci:
     - uname -a
     - node -v
-    - which shipctl
     - docker images
     - sleep 1000
