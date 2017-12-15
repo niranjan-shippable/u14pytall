@@ -4,6 +4,6 @@ build:
   ci:
     - uname -a
     - node -v
-    - which shiptctl
+    - which shipctl
     - docker images
     
