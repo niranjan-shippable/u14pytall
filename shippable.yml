@@ -8,11 +8,7 @@ build:
     
 
   pre_ci_boot:
-     image_name: niranjanhub/test-private-docker-image    ##replace with your repo and image name
-     image_tag: latest
+     image_name: drydockaarch64/u16pyt
+     image_tag: master
      pull: true
- 
-integrations:                 
-   hub:
-     - integrationName: niranjan-shippable-docker
-       type: dockerRegistryLogin
+
